@@ -3,18 +3,64 @@ import './App.css';
 import appbar from './imgs/appbar.camera.png';
 import crown from './imgs/appbar.crown.png';
 import XImg from './imgs/3.jpg';
-import Footer from './Footer';
+import ban1 from './imgs/one-2.jpg';
+import ban2 from './imgs/one-1.jpg';
+import ban4 from './imgs/two-1.jpg';
 
-const Home = () => (
+import Footer from './Footer';
+class Home extends Component {
+    componentDidMount=function(){
+        var num=0;
+        var lun=document.getElementById("lun");
+        var allLi=lun.getElementsByTagName("li");
+
+        this.time=setInterval(function(){
+            lunbo();
+            num++;
+            },1500);    
+       function lunbo(){
+        console.log(allLi)      
+               if(allLi){
+                if(num==allLi.length){
+                num=0;
+               }
+                for(var i = 0;i < allLi.length;i++){
+                    allLi[i].style.opacity="0";
+               }
+                    allLi[num].style.opacity="1";
+
+               }
+        }
+        lunbo();
+ }
+componentWillUnmount(){
+
+    clearInterval(this.time);
+
+
+}
+
+
+
+
+  render() {
+    return (    
   <div className="homepage-text">
-       <div className="top-divider">
-	        <div className="bottom-icon" id="bottom-icon">	            
-	        </div>
-	        <h1><span>全球视野</span><span className="spen2">本土智慧</span></h1>
+        <div className="lunboMeng"></div>
+         <div className="lunbo" id="lbbox">
+              <ul id="lun">
+               <li className="lunbF"><img src={ban1} /></li>
+               <li><img src={ban2} /></li>
+               <li><img src={ban4} /></li>
+              </ul>
+        </div>
+       <div className="top-divider" id="lbbox">
+	        <h1><span>专注优质</span><span className="spen2">法律服务</span></h1>
 	        <div className="bottom-divider"></div>
-	        <h2>规模化 专业化 品牌化 国际化</h2>
-	        <h2><span>法律咨询电话：400-700-0148</span> 
-	        <span>涉外业务咨询电话(English Service)：400-700-1516</span></h2> 
+	        <h2>携手中国权威法律专家打造的法律服务平台</h2>
+	        <h2>
+            <span>法律咨询电话：400-321-150</span>           
+          </h2> 
 	        <div className="x-warp">
 	        	<div className="x-More left">
 	        		<h4>模块1</h4>
@@ -42,26 +88,24 @@ const Home = () => (
 	        	</div>
 	        </div>	        
         </div>
-        <div className="x-bg">
+        <div className="x-bg">          
         	<div className="x-content">
-        	<h5>专业领域 精准定位</h5>
-        	<div className="section-divider section_big section_big_f Appbar">
-                    <img src={appbar} alt="appbar" className="appbar"/>
+            <div className="x-bg2"></div>
+        	<div className="x-noM">
+                <h5>律者，所以定分止争也。</h5>
+                <div className="section-divider section_big section_big_f Appbar">
+                        <img src={appbar} alt="appbar" className="appbar"/>
+
+                </div>
+                <p>刑为盛世所不能废，而亦盛世所不尚</p>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+
+                </ul>
 
             </div>
-            <p>流水之为物也，不盈科不行；君子之志于道也，不成章不达。</p>
-            <ul>
-            	<li></li>
-            	<li></li>
-            	<li></li>
-
-            </ul>
-
-
-
-
-
-
         </div>
         <div className="x-news">
         		<h3>图片新闻</h3>
@@ -90,12 +134,13 @@ const Home = () => (
         		    <p>温家宝总理与盈科律师亲切会话</p>
         		</div>
         </div>
-          <Footer />
+         <Footer />
         </div>
       
     </div>
 
-
-)
+   );
+}
+}
 
 export default Home;

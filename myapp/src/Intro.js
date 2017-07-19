@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
-import homeImg from './imgs/1(1).jpg';
-import banner from './imgs/IMG2_2.JPG';
+import banner from './imgs/one-4.jpg';
 import pic1 from './imgs/1.jpg';
 import line from './imgs/line-ban.png';
 import Footer from './Footer';
 
-class Wl_intro extends Component {
+class Wl_intro extends Component {  
   render() {
     return (
       <div>

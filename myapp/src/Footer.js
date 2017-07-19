@@ -28,9 +28,9 @@ const Footer = () => (
             </div>
             <div className="twelve columns sharing-section">
                 <h3 className="sharing-buttons">
-                    <span>盈科官方微博：盈科律师事务所全球总部</span><span>盈科官方微信：盈科法律微观(yingkezb)</span></h3>
+                    <span>北财官方微博：北财律师事务所全球总部</span><span>北财官方微信：盈科法律微观(yingkezb)</span></h3>
                 <h3 className="sharing-buttons">
-                    北京市盈科律师事务所版权所有 Copyright 2011 YINGKE LAW FIRM All Rights Reserved. 京ICP备14039671号</h3>
+                    北京市北财律师事务所版权所有 Copyright 2011 YINGKE LAW FIRM All Rights Reserved. 京ICP备14039671号</h3>
             </div>
             <div className="twelve columns sharing-icons">
             </div>

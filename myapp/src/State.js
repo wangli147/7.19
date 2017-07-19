@@ -26,80 +26,60 @@ class Anli extends Component {
                     <span className="wl_btnSearch left"></span>
                 </div>
             </div>
-            <div className="ImN">
-                  <div className="x-state left">
-                      <div className="NuO"></div>
-                      <div className='nei'>内容</div>
-                      <p> <span className="wl_heart"><span>29</span>浏览</span>
-                              <span className="wl_date">2017-01-17</span></p>
-                  </div>
-                  <div className="x-state left">
-                      <div className="Nut"></div>
-                      <div className='nei'>内容</div>
-                      <p> <span className="wl_heart"><span>35</span>浏览</span>
-                              <span className="wl_date">2017-01-17</span></p>
-                  </div>
-                  <div className="x-state left">
-                      <div className="NuT"></div>
-                      <div className='nei'>内容</div>
-                      <p> <span className="wl_heart"><span>102</span>浏览</span>
-                              <span className="wl_date">2017-01-17</span></p>
-                  </div>
-            </div>
             <div className="wl_cont clear">
                 <div className=" x-contb">
                     <ul className="wl_menuList">
                       <li>
-                        <a href="#" className="left">盈科律师为沧州经济开发区汽车产业园建设项目提供法律服务</a>
+                        <a href="#" className="left">经济开发区汽车产业园建设项目提供法律服务</a>
                         <p className="wl_listR right">
                             <span className="wl_heart"><span>11852</span>浏览</span>
                             <span className="wl_date">2017-01-17</span>
                         </p>
                       </li>
                       <li>
-                           <a href="#" className="left">盈科律师为沧州经济开发区汽车产业园建设项目提供法律服务</a>
+                           <a href="#" className="left">经济开发区汽车产业园建设项目提供法律服务</a>
                             <p className="wl_listR right">
                                 <span className="wl_heart"><span>11852</span>浏览</span>
                                 <span className="wl_date">2017-01-17</span>
                             </p>
                       </li>
                       <li>
-                          <a href="#" className="left">盈科律师为沧州经济开发区汽车产业园建设项目提供法律服务</a>
+                          <a href="#" className="left">经济开发区汽车产业园建设项目提供法律服务</a>
                           <p className="wl_listR right">
                                <span className="wl_heart"><span>11852</span>浏览</span>
                                 <span className="wl_date">2017-01-17</span>
                           </p>
                       </li>
                       <li>
-                         <a href="#" className="left">盈科律师为沧州经济开发区汽车产业园建设项目提供法律服务</a>
+                         <a href="#" className="left">经济开发区汽车产业园建设项目提供法律服务</a>
                         <p className="wl_listR right">
                              <span className="wl_heart"><span>11852</span>浏览</span>
                             <span className="wl_date">2017-01-17</span>
                         </p> 
                       </li>
                       <li>
-                         <a href="#" className="left">盈科律师为沧州经济开发区汽车产业园建设项目提供法律服务</a>
+                         <a href="#" className="left">经济开发区汽车产业园建设项目提供法律服务</a>
                         <p className="wl_listR right">
                              <span className="wl_heart"><span>11852</span>浏览</span>
                             <span className="wl_date">2017-01-17</span>
                         </p> 
                       </li>
                       <li>
-                         <a href="#" className="left">盈科律师为沧州经济开发区汽车产业园建设项目提供法律服务</a>
+                         <a href="#" className="left">经济开发区汽车产业园建设项目提供法律服务</a>
                         <p className="wl_listR right">
                              <span className="wl_heart"><span>11852</span>浏览</span>
                             <span className="wl_date">2017-01-17</span>
                         </p> 
                       </li>
                       <li>
-                         <a href="#" className="left">盈科律师为沧州经济开发区汽车产业园建设项目提供法律服务</a>
+                         <a href="#" className="left">经济开发区汽车产业园建设项目提供法律服务</a>
                         <p className="wl_listR right">
                              <span className="wl_heart"><span>11852</span>浏览</span>
                             <span className="wl_date">2017-01-17</span>
                         </p> 
                       </li>
                       <li>
-                         <a href="#" className="left">盈科律师为沧州经济开发区汽车产业园建设项目提供法律服务</a>
+                         <a href="#" className="left">经济开发区汽车产业园建设项目提供法律服务</a>
                         <p className="wl_listR right">
                              <span className="wl_heart"><span>11852</span>浏览</span>
                             <span className="wl_date">2017-01-17</span>

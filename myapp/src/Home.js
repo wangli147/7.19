@@ -64,9 +64,9 @@ componentWillUnmount(){
 	        <div className="x-warp">
 	        	<div className="x-More left">
 	        		<h4>模块1</h4>
-	        		<p>内容新闻</p>
-	        		<p>内容新闻</p>
-	        		<p>内容新闻</p>
+	        		<p>详细内容</p>
+	        		<p>详细内容</p>
+	        		<p>详细内容</p>
 	        	</div>
 	        	<div className="x-More left">
 	        		<h4>模块1</h4>

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
+import './css/Footer.css';
 import ReadMore from './imgs/social-media.png';
 import backTop from './imgs/back-to-top.png';
-
 const Footer = () => (
     <div className="page-container pattern-2 " id="services">
               <div className="twelve columns contact-section">

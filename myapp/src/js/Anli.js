@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import './App.css';
-import line from './imgs/line-ban.png';
-import Footer from './Footer';
+import '.././App.css';
+import '.././css/Anli.css';
+import line from '.././imgs/line-ban.png';
+import Footer from '.././Footer';
 // import home from './imgs/1_03.png';
 
 
@@ -10,14 +11,14 @@ class Anli extends Component {
     return (
       <div className="wl_wrap">
           <div className="wl_header">
-              <h1>动态</h1>
+              <h1>经典案例</h1>
               <img src={line} alt="" />
               <h4>法律咨询热线  400-700-0148</h4>
           </div>
         <div className="wl_Ali">
          		<div className="wl_alHead">
 	                <div className="right wl_home">
-	                  	<a href="#" className="wl_homePage">首页</a><a href="#" className="wl_href">动态</a>
+	                  	<a href="#" className="wl_homePage">首页</a><a href="#" className="wl_href">经典案例</a>
 	                </div>
             	</div>
             <div className="wl_se">
@@ -26,60 +27,43 @@ class Anli extends Component {
                     <span className="wl_btnSearch left"></span>
                 </div>
             </div>
-            <div className="wl_cont clear">
-                <div className=" x-contb">
+            <div className="wl_cont">
+                <div className="dwidth clear">
+                <h5>真实案例</h5>
+                  {
+                  //   <div className="x-list">
+                  //     <img src={hezuo} alt="" className="anliI"/>
+                  //     <div className="widt">
+                  //         <div>案情</div>
+                  //         <div>进程</div>
+                  //         <div>结果</div>
+                  //     </div>
+                  // </div>
+                  }
                     <ul className="wl_menuList">
                       <li>
-                        <a href="#" className="left">经济开发区汽车产业园建设项目提供法律服务</a>
+                        <a href="#" className="left">律师为沧州经济开发区汽车产业园建设项目提供法律服务</a>
                         <p className="wl_listR right">
                             <span className="wl_heart"><span>11852</span>浏览</span>
                             <span className="wl_date">2017-01-17</span>
                         </p>
                       </li>
                       <li>
-                           <a href="#" className="left">经济开发区汽车产业园建设项目提供法律服务</a>
+                           <a href="#" className="left">律师为沧州经济开发区汽车产业园建设项目提供法律服务</a>
                             <p className="wl_listR right">
                                 <span className="wl_heart"><span>11852</span>浏览</span>
                                 <span className="wl_date">2017-01-17</span>
                             </p>
                       </li>
                       <li>
-                          <a href="#" className="left">经济开发区汽车产业园建设项目提供法律服务</a>
+                          <a href="#" className="left">律师为沧州经济开发区汽车产业园建设项目提供法律服务</a>
                           <p className="wl_listR right">
                                <span className="wl_heart"><span>11852</span>浏览</span>
                                 <span className="wl_date">2017-01-17</span>
                           </p>
                       </li>
                       <li>
-                         <a href="#" className="left">经济开发区汽车产业园建设项目提供法律服务</a>
-                        <p className="wl_listR right">
-                             <span className="wl_heart"><span>11852</span>浏览</span>
-                            <span className="wl_date">2017-01-17</span>
-                        </p> 
-                      </li>
-                      <li>
-                         <a href="#" className="left">经济开发区汽车产业园建设项目提供法律服务</a>
-                        <p className="wl_listR right">
-                             <span className="wl_heart"><span>11852</span>浏览</span>
-                            <span className="wl_date">2017-01-17</span>
-                        </p> 
-                      </li>
-                      <li>
-                         <a href="#" className="left">经济开发区汽车产业园建设项目提供法律服务</a>
-                        <p className="wl_listR right">
-                             <span className="wl_heart"><span>11852</span>浏览</span>
-                            <span className="wl_date">2017-01-17</span>
-                        </p> 
-                      </li>
-                      <li>
-                         <a href="#" className="left">经济开发区汽车产业园建设项目提供法律服务</a>
-                        <p className="wl_listR right">
-                             <span className="wl_heart"><span>11852</span>浏览</span>
-                            <span className="wl_date">2017-01-17</span>
-                        </p> 
-                      </li>
-                      <li>
-                         <a href="#" className="left">经济开发区汽车产业园建设项目提供法律服务</a>
+                         <a href="#" className="left">律师为沧州经济开发区汽车产业园建设项目提供法律服务</a>
                         <p className="wl_listR right">
                              <span className="wl_heart"><span>11852</span>浏览</span>
                             <span className="wl_date">2017-01-17</span>

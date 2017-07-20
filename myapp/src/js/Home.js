@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import '.././App.css';
+import '.././css/Home.css';
 import appbar from '.././imgs/appbar.camera.png';
 import crown from '.././imgs/appbar.crown.png';
 import XImg from '.././imgs/3.jpg';
@@ -37,6 +39,10 @@ componentWillUnmount(){
 
 
 }
+
+
+
+
   render() {
     return (    
   <div className="homepage-text">

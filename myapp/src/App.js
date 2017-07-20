@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import logo from './imgs/beilogo.jpg';
 import './App.css';
-import Home from './Home';
 import Wl_intro from './js/Intro';
 import Wl_Recruit from './js/Recruit';
-import Anli from './Anli';
 import Wl_Team from './js/Team';
+import Home from './js/Home';
+import Anli from './js/Anli';
 import State from './js/State';
 import Footer from './Footer';
 import Territory from './js/Territory';

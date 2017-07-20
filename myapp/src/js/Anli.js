@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
-import './App.css';
-import line from './imgs/line-ban.png';
-
-
-
-import Footer from './Footer';
+import '.././App.css';
+import '.././css/Anli.css';
+import line from '.././imgs/line-ban.png';
+import Footer from '.././Footer';
 // import home from './imgs/1_03.png';
 
 

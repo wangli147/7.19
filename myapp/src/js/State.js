@@ -4,7 +4,6 @@ import '../css/State.css';
 import line from '.././imgs/line-ban.png';
 import Footer from '.././Footer';
 
-
 class Anli extends Component {
   render() {
     return (

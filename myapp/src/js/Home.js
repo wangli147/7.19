@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import './App.css';
-import appbar from './imgs/appbar.camera.png';
-import crown from './imgs/appbar.crown.png';
-import XImg from './imgs/3.jpg';
-import ban1 from './imgs/one-2.jpg';
-import ban2 from './imgs/one-1.jpg';
-import ban4 from './imgs/two-1.jpg';
-
-import Footer from './Footer';
+import '.././App.css';
+import '.././css/Home.css';
+import appbar from '.././imgs/appbar.camera.png';
+import crown from '.././imgs/appbar.crown.png';
+import XImg from '.././imgs/3.jpg';
+import ban1 from '.././imgs/one-2.jpg';
+import ban2 from '.././imgs/one-1.jpg';
+import ban4 from '.././imgs/two-1.jpg';
+import Footer from '.././Footer';
 class Home extends Component {
     componentDidMount=function(){
         var num=0;
@@ -17,24 +17,27 @@ class Home extends Component {
         this.time=setInterval(function(){
             lunbo();
             num++;
-        },1500);    
+            },1500);    
        function lunbo(){
         console.log(allLi)      
                if(allLi){
                 if(num==allLi.length){
-                    num=0;
-                 }
+                num=0;
+               }
                 for(var i = 0;i < allLi.length;i++){
                     allLi[i].style.opacity="0";
-                }
-                allLi[num].style.opacity="1";
+               }
+                    allLi[num].style.opacity="1";
 
                }
         }
         lunbo();
  }
 componentWillUnmount(){
+
     clearInterval(this.time);
+
+
 }
 
 
@@ -61,9 +64,9 @@ componentWillUnmount(){
 	        <div className="x-warp">
 	        	<div className="x-More left">
 	        		<h4>模块1</h4>
-	        		<p>内容新闻</p>
-	        		<p>内容新闻</p>
-	        		<p>内容新闻</p>
+	        		<p>详细内容</p>
+	        		<p>详细内容</p>
+	        		<p>详细内容</p>
 	        	</div>
 	        	<div className="x-More left">
 	        		<h4>模块1</h4>

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '.././App.css';
 import '../css/Recruit.css';
+
 import homeImg from '.././imgs/1(1).jpg';
 import banner from '.././imgs/IMG2_2.JPG';
 import pic1 from '.././imgs/1.jpg';

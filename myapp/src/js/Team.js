@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import './App.css';
-import pic1 from './imgs/1.jpg';
-import People1 from './imgs/people1.jpg';
-import People2 from './imgs/people2.jpg';
-import line from './imgs/line-ban.png';
-import Footer from './Footer';
+import '.././App.css';
+import '../css/Team.css';
+import pic1 from '.././imgs/1.jpg';
+import People1 from '.././imgs/people1.jpg';
+import People2 from '.././imgs/people2.jpg';
+import line from '.././imgs/line-ban.png';
+import Footer from '.././Footer';
 
-class Wl_intro extends Component {
+class Wl_Team extends Component {
   render() {
     return (
       <div>
@@ -79,4 +80,4 @@ class Wl_intro extends Component {
   }
 }
 
-export default Wl_intro;
+export default Wl_Team;

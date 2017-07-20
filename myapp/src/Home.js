@@ -17,27 +17,24 @@ class Home extends Component {
         this.time=setInterval(function(){
             lunbo();
             num++;
-            },1500);    
+        },1500);    
        function lunbo(){
         console.log(allLi)      
                if(allLi){
                 if(num==allLi.length){
-                num=0;
-               }
+                    num=0;
+                 }
                 for(var i = 0;i < allLi.length;i++){
                     allLi[i].style.opacity="0";
-               }
-                    allLi[num].style.opacity="1";
+                }
+                allLi[num].style.opacity="1";
 
                }
         }
         lunbo();
  }
 componentWillUnmount(){
-
     clearInterval(this.time);
-
-
 }
 
 
@@ -64,9 +61,9 @@ componentWillUnmount(){
 	        <div className="x-warp">
 	        	<div className="x-More left">
 	        		<h4>模块1</h4>
-	        		<p>详细内容</p>
-	        		<p>详细内容</p>
-	        		<p>详细内容</p>
+	        		<p>内容新闻</p>
+	        		<p>内容新闻</p>
+	        		<p>内容新闻</p>
 	        	</div>
 	        	<div className="x-More left">
 	        		<h4>模块1</h4>

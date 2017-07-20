@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import './App.css';
-import banner from './imgs/one-4.jpg';
-import pic1 from './imgs/1.jpg';
-import line from './imgs/line-ban.png';
-import Footer from './Footer';
+import '.././App.css';
+import '../css/Intro.css';
+import banner from '.././imgs/one-4.jpg';
+import pic1 from '.././imgs/1.jpg';
+import line from '.././imgs/line-ban.png';
+import Footer from '.././Footer';
 
 class Wl_intro extends Component {  
   render() {

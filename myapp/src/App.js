@@ -2,13 +2,13 @@ import React, { Component } from 'react';
 import logo from './imgs/beilogo.jpg';
 import './App.css';
 import Home from './Home';
-import Wl_intro from './Intro';
-import Wl_Recruit from './Recruit';
+import Wl_intro from './js/Intro';
+import Wl_Recruit from './js/Recruit';
 import Anli from './Anli';
-import Team from './Team';
-import State from './State';
+import Wl_Team from './js/Team';
+import State from './js/State';
 import Footer from './Footer';
-import Territory from './Territory';
+import Territory from './js/Territory';
 import {
   BrowserRouter as Router,
   Route,
@@ -18,7 +18,6 @@ const BasicExample = () => (
   <Router>
 	  <div className="box">
 	    <div className="x-header clear">
-
 		    <div className="left x-logob">
 		      <Link to="/"><img src={logo} alt="logo" className="x-logo"/></Link>
 
@@ -35,7 +34,7 @@ const BasicExample = () => (
 	    </div> 
 	     <Route exact path="/" component={Home}/>
 	     <Route exact path="/Intro" component={Wl_intro}/>
-	     <Route exact path="/Team" component={Team}/>  
+	     <Route exact path="/Team" component={Wl_Team}/>  
 	     <Route exact path="/Anli" component={Anli}/>
 	     <Route exact path="/State" component={State}/>
 	     <Route exact path="/Recruit" component={Wl_Recruit}/>  

@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import './App.css';
-import line from './imgs/line-ban.png';
-import Footer from './Footer';
+import '.././App.css';
+import '../css/Territory.css';
+import line from '.././imgs/line-ban.png';
+import Footer from '.././Footer';
 
 
 class Territory extends Component {

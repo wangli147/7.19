@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import './App.css';
-import homeImg from './imgs/1(1).jpg';
-import banner from './imgs/IMG2_2.JPG';
-import pic1 from './imgs/1.jpg';
-import line from './imgs/line-ban.png';
-import Footer from './Footer';
+import '.././App.css';
+import '../css/Recruit.css';
+import homeImg from '.././imgs/1(1).jpg';
+import banner from '.././imgs/IMG2_2.JPG';
+import pic1 from '.././imgs/1.jpg';
+import line from '.././imgs/line-ban.png';
+import Footer from '.././Footer';
 
 class Wl_Recruit extends Component {
   render() {

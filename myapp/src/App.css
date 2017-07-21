@@ -36,8 +36,7 @@ a{
 .x-nav{
   background-color: #0a2b4a;
   height:50px;
-  color: white;
- 
+  color: white; 
   width:860px;
 }
 .x-nav li{
@@ -52,9 +51,10 @@ a{
   background:rgba(255,102,0,1);
 }
 .x-nav a{
-
   color:#fff;
-
+  display:inline-block;
+  width:86px;
+  height:50px;
 }
 .x-header{
   width:100%;
@@ -71,24 +71,6 @@ a{
   height:36px;
   margin-top:5px;
 }
-
- 
-
-
-/* 导航栏结束 */
-
-/* 首页上固定内容开始 */
-
-/* 首页移动内容 end */
-
-
-
-
-
-
-
-
-
 
 /* 公司简介 */
 .wl_wrap{

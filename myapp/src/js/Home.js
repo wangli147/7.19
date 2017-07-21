@@ -18,8 +18,7 @@ class Home extends Component {
             lunbo();
             num++;
             },1500);    
-       function lunbo(){
-        console.log(allLi)      
+       function lunbo(){   
                if(allLi){
                 if(num==allLi.length){
                 num=0;
